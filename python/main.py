@@ -8,22 +8,15 @@ import time
 # これ何に使ってるか不明
 from datetime import datetime
 
+###################
 # slackメッセージ送信先の定義
-## 人狼プログラム設計
-#WEB_HOOK_URL = "https://hooks.slack.com/services/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"
-#channel_name = "#人狼テスト"
-
-## kyle
-# 一個目のはslack appのwebhookのurlなんだけど、ユーザネームとかうまく変えられないからカスタムインテグレーションから使えるwebhookにしてる。
-#WEB_HOOK_URL = "https://hooks.slack.com/services/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"
-WEB_HOOK_URL = "https://hooks.slack.com/services/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"
-channel_name = "#post"
-
+# WEB_HOOK_URL = 
+# channel_name = 
 # slackメッセージ受信先の定義
-# slack appのwerewolfのUser OAuth Tokenを指定
-TOKEN = 'xoxp-3157585096822-3161337001733-4377923093681-7006a0f57b7c33ee234480f0145931be'    
-CHANNEL = 'C0356QW1GKB'    # チャンネル:postを指定
-user_id = 'U034R9X01MK'    # userのid、現在はkyle440440を指定
+# TOKEN = 
+# CHANNEL =
+# user_id = 
+###################
 
 # slcakメッセージ受信設定
 url = "https://slack.com/api/conversations.history"
