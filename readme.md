@@ -16,7 +16,6 @@ werewolf
 │  │      template.py
 │  │
 │  ├─main
-│  │      main.py
 │  │      night_func.py
 │  │      noon_func.py
 │  │      start_night_func.py
